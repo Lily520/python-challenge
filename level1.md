@@ -2,17 +2,19 @@
 
 [description](http://www.pythonchallenge.com/pc/def/map.html)
 
-`hint1`
-<font face="黑体">我是黑体字</font>
-<font face="微软雅黑">我是微软雅黑</font>
-<font face="STCAIYUN">我是华文彩云</font>
-<font color=#0099ff size=7 face="黑体">color=#0099ff size=72 face="黑体"</font>
-<font color=#00ffff size=72>color=#00ffff</font>
-<font color=gray size=72>color=gray</font>
+## 可获知的提示有：
+**`hint1`**:everybody thinks twice before solving this.  
 
-<font color=#0099ff face="黑体">hint1:</font> 
-everybody thinks twice before solving this.  
+**`hint2`**:图中笔记本上显示的：K->M O->Q E->G  
 
-<font color=#0099ff >hint2:</font> 
-图中笔记本上显示的：K->M O->Q E->G  
+由hint2可知本题是求一个映射，同时K／O／E 映射到 M／Q／G都是将字符平移向后映射了两位以及hint1中的“twice”，则本题便是求字符“map”向后映射两位后得到的字符。  
+
+## code
+
+
+
+## 知识点
+
+
+
 
