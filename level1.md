@@ -2,7 +2,7 @@
 
 [description](http://www.pythonchallenge.com/pc/def/map.html)
 
-## 1.可获知的提示有：
+## 1.可获知的提示有
 **`hint1`**:everybody thinks twice before solving this.  
 
 **`hint2`**:图中笔记本上显示的：K->M O->Q E->G  
