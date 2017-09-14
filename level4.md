@@ -49,7 +49,7 @@ going.
 
 (16044/2)=8022  
 因此，我们将```if __name__ == "__main__"```的下一句的链接换成：    
-src = urllib.request.urlopen("http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=8022")  
+```src = urllib.request.urlopen("http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=8022")```  
 
 再次运行，最后1行的输出为：  
 b'peak.html'    
