@@ -1,31 +1,24 @@
 # 第2关
 
-[description](http://www.pythonchallenge.com/pc/def/ocr.html)
+[description](http://www.pythonchallenge.com/pc/def/equality.html)
 
 ## 1.可获知的提示有
 **`hint1`**:查看网页源代码  
 
-**`hint2`**:find rare characters in the mess below. 
+**`hint2`**:One small letter, surrounded by <b>EXACTLY</b> three big bodyguards on each of its sides.
 
-因此  ，本题是求出现次数最少的字符。
+因此,本题是求两边都被3个大写字母包围的小写字母。
 
 ## 2.code
 ```python
-#2.找到一段字符串中出现次数最少的字符
+#3.正则表达式
 
-if __name__ == "__main__":
-    #input = "...." #太长省略,运行前要先替换成原网页中的字符串
-    dicts = {}
-    for ele in input:
-        dicts.setdefault(ele,0)
-        dicts[ele] += 1
+import re
+str = "" #太长省略，运行前要先替换成原网页中的字符串
+s = re.findall('[a-z]{1}[A-Z]{3}[a-z]{1}[A-Z]{3}[a-z]{1}',str) #一个小写字母两边恰被3个大写字母包围
+result = [x[4] for x in s]
+print(result) #linkedlist
 
-    min_times = min(dicts.items(),key=lambda x:x[1])[1] #求字典对应的最小值
-    print(type(min_times))
-    print(min_times)
-    for k in dicts.keys():
-        if dicts[k] == min_times:
-            print(k,dicts[k])  #得到出现次数最少的字符连起来为：equality
 ```
 得到第三关入口: http://www.pythonchallenge.com/pc/def/equality.html
 
