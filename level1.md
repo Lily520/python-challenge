@@ -23,10 +23,13 @@ if __name__ == "__main__":
 ```
 
 ## 3.知识点
+
 ### 3.1 字符串的映射
+
 字符串的映射包含两个函数：maketrans()和translate(), 它们都在str模块中。  
 str.maketrans(from,to): 该函数将from中的字符映射到to中对应位置的字符上。所以，from与to的长度应一致。  
-ori_str.translate(to,del):该函数将ori_str字符串按maketrans()定义的映射关系进行映射。同时，将del中有的字符删掉。
+ori_str.translate(to,del):该函数将ori_str字符串按maketrans()定义的映射关系进行映射。同时，将del中有的字符删掉。  
+
 ### 3.2 按序获取所有小写字母
 ```python
 import string
