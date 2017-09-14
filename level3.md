@@ -1,4 +1,4 @@
-# 第2关
+# 第3关
 
 [description](http://www.pythonchallenge.com/pc/def/equality.html)
 
@@ -20,16 +20,10 @@ result = [x[4] for x in s]
 print(result) #linkedlist
 
 ```
-得到第三关入口: http://www.pythonchallenge.com/pc/def/equality.html
+得到第四关入口: http://www.pythonchallenge.com/pc/def/linkedlist.html
 
 ## 3.知识点
-
-	* 字典中不存的键，为此键设置默认值 ：   dicts.setdefault(ele,0)
-	* 求字典对应的最小值：   min(dicts.items(),key=lambda x:x[1])[1]
-	* 求字典最小值对应的键:  min(dicts.items(),key=lambda x:x[1])[0]
-	* min(dicts.items(),key=lambda x:x[1]) 得到的结果类型为 tuple
-
-
+正则表达式的相关知识
 
 
 
