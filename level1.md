@@ -21,6 +21,8 @@ if __name__ == "__main__":
     res = "map".translate(trans_str)
     print(res)   # ocr
 ```
+得到第二关入口：http://www.pythonchallenge.com/pc/def/ocr.html
+
 
 ## 3.知识点
 
@@ -36,8 +38,6 @@ import string
 
 low_str = string.ascii_lowercase #low_str即是所求所有小写字母
 ```
-
-
 
 
 
