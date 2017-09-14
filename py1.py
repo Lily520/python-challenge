@@ -1,7 +1,13 @@
-#1.map 知识点：asc码与整型的转换
-#link: http://www.pythonchallenge.com/pc/def/map.html
+#1. 字符串映射
+
+import string
+
+if __name__ == "__main__":
+
+    trans_str = str.maketrans(string.ascii_lowercase[:],string.ascii_lowercase[2:] + string.ascii_lowercase[0:2]) #得到映射关系
+    res = "map".translate(trans_str)
+    print(res)   # ocr
 
 
-print(chr(ord('m') + 2),end='')
-print(chr(ord('a') + 2),end='')
-print(chr(ord('p') + 2),end='')
+
+
