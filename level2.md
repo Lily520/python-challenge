@@ -1,4 +1,4 @@
-# 第1关
+# 第2关
 
 [description](http://www.pythonchallenge.com/pc/def/ocr.html)
 
