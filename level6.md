@@ -51,18 +51,20 @@ if __name__ == "__main__":
     end = ""
     for lists in comments:
         end += lists
-    print(end)
+    print(end) #hockey
 
 ```
-得到第六关入口: 
+得到链接：http://www.pythonchallenge.com/pc/def/hockey.html
+打开后，得到：it's in the air. look at the letters.因此，组成hockey的字母才是重点，同时通过 in the air 暗示得到是：oxygen(氧气)
+得到第七关入口: http://www.pythonchallenge.com/pc/def/oxygen.html
 ## 3.知识点
 
 	* 打开zipfile文件：  导入库 zipfile
-    ```python
-    import zipfile
-    zip = zipfile.ZipFile(inputPath,'r')
-    zip.read(cur_file)
-    ```
+```python
+import zipfile
+zip = zipfile.ZipFile(inputPath,'r')
+zip.read(cur_file)
+```
 	* 正则表达式：   re.findall()
 	* zipfile文件中的文件有comment信息：   zip.getinfo(file).comment
 
