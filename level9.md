@@ -24,7 +24,7 @@ if __name__ == "__main__":
     image.show()
 
 ```
-得到一头牛的轮廓。输入cow,得到：hmm. it's a male. 因此，应该是bull。
+得到一头牛的轮廓。输入cow,得到：hmm. it's a male. 因此，应该是bull。  
 得到第10关入口: http://www.pythonchallenge.com/pc/return/bull.html
 ## 3.知识点
 pil模块的ImageDraw模块的Draw中的line函数，用于画线。
