@@ -4,7 +4,7 @@
 
 ## 1.可获知的提示有
 **`hint1`**:第12关中，将evil1依次替换成evil2,evil3,evil4,evil4.jpg无法打开。因此，   
-用curl -u命令打开: curl -u huge:file http://www.pythonchallenge.com/pc/return/evil4.jpg   
+用curl -u命令打开: curl -u huge:file http://www.pythonchallenge.com/pc/return/evil4.jpg     
 得到：Bert is evil! go back!
 
 **`hint2`**: 图片下方显示：phone that evil。
@@ -36,7 +36,7 @@ if __name__ == "__main__":
 ```
 得到第14关入口: http://www.pythonchallenge.com/pc/return/italy.html
 ## 3.知识点
-1.xmlrpc: 是一种使用HTTP协议传输XML格式文件来获取远程程序调用（Remote Procedure Call）的传输方式
+1.xmlrpc: 是一种使用HTTP协议传输XML格式文件来获取远程程序调用（Remote Procedure Call）的传输方式   
 2.curl命令的用法。
 
 
