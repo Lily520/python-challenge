@@ -9,9 +9,9 @@
 
 **`hint3`**:1月26是周一
 
-**`hint4`**:源代码中的两句话：
-     <!-- he ain't the youngest, he is the second -->
-     <!-- todo: buy flowers for tomorrow -->
+**`hint4`**:源代码中的两句话：    
+     he ain't the youngest, he is the second   
+     todo: buy flowers for tomorrow 
 
 因此，我们要求的就是离现在次近的年份，并且在1.27出生的人
 
