@@ -23,7 +23,7 @@ if __name__ == "__main__":
     print(pwr) #b'file'
 
 ```
-点击图片，输入用户名，密码。
+点击图片，输入用户名，密码。  
 得到第九关入口: http://www.pythonchallenge.com/pc/return/good.html
 ## 3.知识点  
 1.压缩模块 bz2
