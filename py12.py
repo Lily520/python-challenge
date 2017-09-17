@@ -7,7 +7,6 @@ if __name__ == "__main__":
 
     with open("evil2.gfx","rb") as f1:
         data = f1.read()
-    # print(data)
 
     for i in range(5):
         open(str(i)+".jpg",'wb').write(data[i::5])
