@@ -1,7 +1,6 @@
 #实现方法1
 # a = [1,11,21,1211,111221,...]
 
-
 def getNext(num):
         str_num = str(num)
         res = ""
