@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw
 
+
 if __name__ == "__main__":
     first = [] #太长省略，运行之前记得补全
     second = [] #太长省略，运行之前记得补全
