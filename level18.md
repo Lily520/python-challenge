@@ -7,7 +7,9 @@
 我们发现，两幅图的区别只是亮度不同。将链接改为brightness。网页显示并无改变，查看网页源代码，得到：maybe consider deltas.gz 
 2. 下载deltas.gz： http://www.pythonchallenge.com/pc/return/deltas.gz
 用gzip查看压缩文件，有两组16进制数  
-3. 根据1中的提示，用difflib将两组数做比较。得到的结果有3种类型：以“+ ”开头，以“- ”开头，以“  ”开头。将3种类型的结果分别存放，并在图片中显示出来。    
+3. 根据1中的提示，用difflib将两组数做比较。得到的结果有3种类型：以“+ ”开头，以“- ”开头，以“  ”开头。将3种类型的结果分别存放，并在图片中显示出来。   
+
+
 图片中显示的信息，便可得到闯关信息。
 
 ## 2.code
@@ -52,7 +54,9 @@ if __name__ == "__main__":
 gzip.open("deltas.gz",'rb')： 可以打开读取压缩文件，并可用于读取内容
 
 ### 3.2 difflib模块
-difflib.Differ().compare(data1,data2)：  
+difflib.Differ().compare(data1,data2)：    
+
+
 用于比较data1,data2的差异。得到的结果共有三种类型：以“+ ”开头，以“- ”开头，以“  ”开头。   
 其中，“+ ”开头的表示：只在data1中出现；  
 “- ” 开头的表示：只在data2中出现；  
