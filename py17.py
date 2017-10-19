@@ -2,6 +2,7 @@ import http.cookiejar
 import urllib.request
 import re
 import bz2
+import xmlrpc.client
 
 
 if __name__ == "__main__":
@@ -49,7 +50,6 @@ if __name__ == "__main__":
 
     #step4: 由cookie_decom的结果知，跟第16关有关:mozart的父亲 Leopold 跟第13关有关：
     #mozart的父亲Leopold
-    import xmlrpc.client
     php_html = "http://www.pythonchallenge.com//pc//phonebook.php"
     re_ans1 = xmlrpc.client.ServerProxy(php_html)
     print(re_ans1.phone("Leopold")) #555-VIOLIN
