@@ -1,9 +1,6 @@
 import zlib
 import bz2
 
-import sys
-# sys.setdefaultencoding()
-# sys.setdefaultencoding('utf-8')
 
 def decompresses(path):
     s = open(path,'rb').read()
