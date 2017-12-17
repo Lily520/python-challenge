@@ -1,8 +1,6 @@
 import zlib
 import bz2
 
-###########11111111
-
 import sys
 # sys.setdefaultencoding()
 # sys.setdefaultencoding('utf-8')
