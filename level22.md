@@ -3,7 +3,7 @@
 [description](http://www.pythonchallenge.com/pc/hex/copper.html)
 
 ## 1.可获知的提示有：
-根据源代码提示，得到white.gif动态图。
+根据源代码提示，得到white.gif动态图。利用每一帧中为8(不为0)的像素点的坐标进行画图，得到最终结果。
 
 
 ## 2.code
@@ -40,10 +40,10 @@ if __name__ == "__main__":
 ```
 得到第23关入口: http://www.pythonchallenge.com/pc/hex/bonus.html
 ## 3.知识点
-
-
-
-
-
+### 3.1 ImageSequence.Iterator(image) ⇒ Iterator instance. 
+    含义：创建一个迭代器实例，让用户循环访问序列中的所有帧图像。
+    
+### 3.2 Image.getbbox():
+    返回包含非零区域的最小bbox
 
 
