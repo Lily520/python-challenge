@@ -1,14 +1,3 @@
-# 第22关
-
-[description](http://www.pythonchallenge.com/pc/hex/copper.html)
-
-## 1.可获知的提示有：
-根据源代码提示，得到white.gif动态图。
-
-
-## 2.code
-```python
-
 from PIL import Image,ImageSequence
 
 if __name__ == "__main__":
@@ -34,16 +23,3 @@ if __name__ == "__main__":
             im_new.putpixel(pos,255)
     im_new.save("result.gif")
     im_new.show() #bonus
-
-
-
-```
-得到第23关入口: http://www.pythonchallenge.com/pc/hex/bonus.html
-## 3.知识点
-
-
-
-
-
-
-
