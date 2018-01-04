@@ -1,6 +1,7 @@
 from PIL import Image,ImageSequence
 
 if __name__ == "__main__":
+	
     im = Image.open("white.gif")
     coords = []
     for frame in ImageSequence.Iterator(im):  #遍历动态图，发现每一帧都有一个值为8的像素点
