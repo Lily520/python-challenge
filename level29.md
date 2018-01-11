@@ -3,11 +3,10 @@
 [description](http://www.pythonchallenge.com/pc/ring/guido.html)
 
 ## 1.可获知的提示有
-**`hint1`**:
 
-**`hint2`**:
+获取page source里的内容，将后面空白部分每行的空格计数并求ASCII,用bz2解压得到闯关密码。
 
-因此,本题是求。
+
 
 ## 2.code
 ```python
