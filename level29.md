@@ -40,7 +40,7 @@ import base64
 
 html = Request("http://www.pythonchallenge.com/pc/ring/guido.html")
 html.add_header('Authorization', 'Basic %s' % base64.b64encode(b'repeat:switch').decode())
-pageContent = urlopen(html).read().
+pageContent = urlopen(html).read()
 
 ```
 
